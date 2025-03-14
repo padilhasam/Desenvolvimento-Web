@@ -5,14 +5,31 @@
         <title>Curso HTML5 Essencial</title>
         
         <style>
+            @counter-style grapes{
+                system: cyclic;
+                symbols: "\1F347" "\1F34F";
+                suffix: " ";
+            }
             body {
                 font-family: sans-serif;
                 font-size: 12 px;
+            }
+           /*li{
+                list-style-type: grapes;
+            }*/
+            li{
+                /*list-style-type:georgian;*/
+                list-style-image: url(imagem/estrela.png);
             }
 		</style>
     </head>
     
     <body>
-        
+        <ul>
+            <li>Brasil</li>
+            <li>Argentina</li>
+            <li>México</li>
+            <li>Angola</li>
+        </ul>
     </body>
 </html>
