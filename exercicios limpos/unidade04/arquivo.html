@@ -3,26 +3,24 @@
     <head>
         <title>Unidade 02 - Elemento Head</title>
         <meta charset="utf-8">
-        <!--<link href="style.css" type="text/css" rel="stylesheet" media="all"> -->
+        <!-- Aplicando CSS Interno -->
         <style>
             body{
-                background: blue;
+                background-color: #f0f0f0;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 50px;
-                color:antiquewhite;
             }
         </style>
-        <!--<script src="script.js" type="text/js"></script>-->
         <script>
+            // Cria uma função para escrever o nome
             function escreverNome(){
                 nome.innerHTML = "Jeferson M. Padilha";
             }
-            window.onload = escreverNome;
-            //window.escreverNome; --> Chamando a função;
+            window.onload = escreverNome; //Chama a função
         </script>
     </head>
-    <body><!--onload="escreverNome()" PARAMETRO DO BODY--></body>
-        <p>Esta é a segunda unidade</p>
+    <body>
+        <!-- CSS Inline -->
+        <p style="color:#0F3F4D;"><strong> Esta é a segunda unidade. </strong></p>
         <p id="nome"></p>
     </body>
 </html>
