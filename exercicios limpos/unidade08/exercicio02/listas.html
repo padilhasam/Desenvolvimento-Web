@@ -9,10 +9,61 @@
                 font-family: sans-serif;
                 font-size: 12 px;
             }
+
+            li{
+                list-style-image: url('imagem/estrela.png');
+            }
+
+            /* Inicia o contador chamado item
+            ol{
+                counter-reset: item; 
+                list-style-type: none;
+            }
+            Soma 1 a cada novo item da lista
+            ol li{ 
+                counter-increment: item;
+                margin: 5px 0;
+
+            }
+            Adiciona na frente do item da lista
+            ol li::before{
+                content: counters(item, ".")".";
+                font-weight: bold;
+            } */
+             
 		</style>
     </head>
     
     <body>
+
+        <ol>
+            <li>Brasil</li>
+                <ol>
+                    <li>Paraná</li>
+                    <li>Goiás</li>
+                    <li>Minas Gerais</li>
+                    <li>Bahia</li>
+                </ol>
+            <li>Argentina</li>
+                <ol>
+                    <li>Cordoba</li>
+                    <li>Buenos Aires</li>
+                </ol>
+            <li>México</li>
+                <ol>
+                    <li>Michoácan</li>
+                    <li>Guadalajara</li>
+                    <li>Ciudad de México</li>
+                </ol>
+            <li>Angola</li>
+        </ol>
+
+        <ul>
+            <li>Brasil</li>
+            <li>Argentina</li>
+            <li>México</li>
+            <li>Angola</li>
+        </ul>
         
     </body>
 </html>
